@@ -1,17 +1,17 @@
 {
   "id": "ddb-gamelog-patch",
-  "name": "ddb-gamelog-patch",
+  "type": "module",
   "title": "DDB Gamelog Patch",
-  "description": "Fixes the double evaluation bug in ddb-game-log by patching RollTerm.evaluate().",
+  "description": "Fixes the 'already evaluated' bug in ddb-game-log by safely patching RollTerm.evaluate() to prevent re-evaluation errors.",
   "version": "1.0.0",
-  "author": "Ralf Reschke",
-  "minimumCoreVersion": "11",
-  "compatibleCoreVersion": "13",
+  "authors": [{ "name": "Bullseye1979" }],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13"
+  },
   "scripts": ["fix-evaluate.js"],
-  "esmodules": [],
-  "styles": [],
-  "packs": [],
-  "url": "https://github.com/ralfreschke/ddb-gamelog-patch",
-  "manifest": "https://raw.githubusercontent.com/ralfreschke/ddb-gamelog-patch/main/module.json",
-  "download": "https://github.com/ralfreschke/ddb-gamelog-patch/archive/refs/heads/main.zip"
+  "systems": [],
+  "url": "https://github.com/Bullseye1979/ddb-gamelog-patch",
+  "manifest": "https://raw.githubusercontent.com/Bullseye1979/ddb-gamelog-patch/main/module.json",
+  "download": "https://github.com/Bullseye1979/ddb-gamelog-patch/archive/refs/heads/main.zip"
 }
