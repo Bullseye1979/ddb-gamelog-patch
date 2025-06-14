@@ -1,8 +1,8 @@
 {
-  "id": "ddb-game-log-evaluate-fix",
-  "name": "ddb-game-log-evaluate-fix",
-  "title": "DDB Game Log Evaluate Fix",
-  "description": "Fixes the double evaluation bug in ddb-game-log by patching OperatorTerm.evaluate().",
+  "id": "ddb-gamelog-patch",
+  "name": "ddb-gamelog-patch",
+  "title": "DDB Gamelog Patch",
+  "description": "Fixes the double evaluation bug in ddb-game-log by patching RollTerm.evaluate().",
   "version": "1.0.0",
   "author": "Ralf Reschke",
   "minimumCoreVersion": "11",
@@ -11,7 +11,7 @@
   "esmodules": [],
   "styles": [],
   "packs": [],
-  "url": "https://github.com/ralfreschke/ddb-game-log-evaluate-fix",
-  "manifest": "https://raw.githubusercontent.com/ralfreschke/ddb-game-log-evaluate-fix/main/module.json",
-  "download": "https://github.com/ralfreschke/ddb-game-log-evaluate-fix/archive/refs/heads/main.zip"
+  "url": "https://github.com/ralfreschke/ddb-gamelog-patch",
+  "manifest": "https://raw.githubusercontent.com/ralfreschke/ddb-gamelog-patch/main/module.json",
+  "download": "https://github.com/ralfreschke/ddb-gamelog-patch/archive/refs/heads/main.zip"
 }
