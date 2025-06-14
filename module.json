@@ -8,6 +8,9 @@
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "13",
   "scripts": ["fix-evaluate.js"],
+  "esmodules": [],
+  "styles": [],
+  "packs": [],
   "url": "https://github.com/ralfreschke/ddb-game-log-evaluate-fix",
   "manifest": "https://raw.githubusercontent.com/ralfreschke/ddb-game-log-evaluate-fix/main/module.json",
   "download": "https://github.com/ralfreschke/ddb-game-log-evaluate-fix/archive/refs/heads/main.zip"
