@@ -1,7 +1,7 @@
 {
   "name": "ddb-game-log-evaluate-fix",
   "title": "DDB Game Log Evaluate Fix",
-  "description": "Fixes the double evaluation bug in ddb-game-log by monkey-patching RollTerm.evaluate().",
+  "description": "Fixes the double evaluation bug in ddb-game-log by patching OperatorTerm.evaluate().",
   "version": "1.0.0",
   "author": "Ralf Reschke",
   "minimumCoreVersion": "11",
