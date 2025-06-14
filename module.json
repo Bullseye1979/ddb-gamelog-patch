@@ -1,4 +1,5 @@
 {
+  "id": "ddb-game-log-evaluate-fix",
   "name": "ddb-game-log-evaluate-fix",
   "title": "DDB Game Log Evaluate Fix",
   "description": "Fixes the double evaluation bug in ddb-game-log by patching OperatorTerm.evaluate().",
